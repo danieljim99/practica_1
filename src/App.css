@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.Character {
+  text-align: center;
+  border: 1px solid black;
+  width: 20%;
+  margin: 10px;
+  height: fit-content;
+  padding: 10px;
+  color: white;
+  background-color: rgb(80, 80, 80);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.Image {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.CharacterFullScreen {
+  text-align: center;
+  margin: auto;
+  border: 2px solid black;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(80, 80, 80);
+  color: white;
+  padding: 10px;
+}
+
+.ImageFullScreen {
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+}
+
+.Filter{
+  background-color: rgb(80,80,80);
+  border: 2px solid #000;
+  margin: 2px;
+  vertical-align: middle;
+  font-weight: 300;
+  width: 50px;
+  height: 25px;
+  color: white;
+  text-align: center;
+}
+.SearchBar{
+  width: 500px;
+  height: fit-content;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.Button {
+  text-align: start;
+}
+
+.Header{
+  text-align: center;
+}
